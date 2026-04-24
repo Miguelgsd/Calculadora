@@ -1,14 +1,9 @@
 public class Calculadora {
 	public double num1, num2;
 
-	public Calculadora(double num1, double num2){
-		this.num1 = num1;
-		this.num2 = num2;
-	}
-
 	public Calculadora(){
-		this.num1 = 9.0;
-                this.num2 = 5.0;
+		this.num1 = 0.0;
+                this.num2 = 0.0;
 	}
 
     public double somar(double num1, double num2){
